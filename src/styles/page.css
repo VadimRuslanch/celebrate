@@ -1,0 +1,174 @@
+/**/
+html {
+    font-family: Caveat, serif;
+}
+
+.page {
+    height: 100%;
+    display: flex;
+    background: rgb(252, 240, 228);
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        padding: 0 16px;
+    }
+}
+
+.price-container {
+    width: 600px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background: url("../images/dcfed2a21ee14898ee0009b187cd6f4e.gif") no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 600px) {
+    .price-container {
+        width: calc(100% - 32px)
+    }
+}
+
+.start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    max-width: 600px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 56px;
+    letter-spacing: 2px;
+}
+
+.dis {
+    margin: 24px 0 0;
+    max-width: 600px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 2px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84px;
+    width: 240px;
+    margin: 100px 0 0;
+    padding: 0;
+    border-radius: 24px;
+    border: brown 2px solid;
+    background: azure;
+    cursor: pointer;
+}
+
+.button-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.button-img{
+    height: 100px;
+    width: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 48px;
+    gap: 24px;
+}
+
+.info-text {
+    text-align: start;
+    margin: 24px 0 0;
+    max-width: 600px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    text-align: start;
+    padding: 10px 10px 10px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.link1::after {
+    margin-top: 5px;
+    content: "нажми на меня";
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.link2::after {
+    margin-top: 5px;
+    content: "нет, выбри лучше меня";
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.link3::after {
+    margin-top: 5px;
+    content: "ты же знаешь, я лучший вариант";
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.link4::after {
+    margin-top: 5px;
+    content: "перед тем как нажимать включи VPN";
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+.link5::after {
+    margin-top: 5px;
+    content: "";
+    display: block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
